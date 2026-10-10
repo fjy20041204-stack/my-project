@@ -1,0 +1,14 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# 系统文件
+Thumbs.db
+.DS_Store
