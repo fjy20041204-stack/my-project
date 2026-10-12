@@ -1,14 +1,14 @@
-#定义
-from os import remove
-
-s=[56,33,33,"hello",True]
-# print(type(s))
-#获取
+# #定义
+# from os import remove
+#
+# s=[56,33,33,"hello",True]
+# # print(type(s))
+# 获取
 
 # print(s[0])#正向索取，从0开始
 # print(s[-5])#反向索取，从-1开始
 
-#修改
+# 修改
 # s[0]=66
 # print(s)
 #
@@ -27,10 +27,7 @@ s=[56,33,33,"hello",True]
 #     print(x)
 
 
-
-
-
-#定义列表
+# 定义列表
 # s=[1,2,3,4,45,5,7,9,0]
 #
 # # 切片操作 s[开始索引：结束索引：步长]
@@ -49,16 +46,15 @@ s=[56,33,33,"hello",True]
 # reverse()  反转列表元素  s.reverse()
 
 
-#案例  将用户输入的10个数字，存储到一个列表中，并将数字进行排序，输出最小值，最大值，和平均值
-#1.定义列表
+# 案例  将用户输入的10个数字，存储到一个列表中，并将数字进行排序，输出最小值，最大值，和平均值
+# 1.定义列表
 # num_list=[]
-#
-# #2.用户输入的十个数字存入列表
+# # #2.用户输入的十个数字存入列表
 # for i  in range(10):
 #     num=input("请输入数字")
 #     num_list.append(num)
 # print("列表",num_list)
-#
+
 # # 3.排序
 # num_list.sort()
 # print("排列后",num_list)
@@ -99,3 +95,8 @@ s=[56,33,33,"hello",True]
 # print("去重后的列表",new_list)
 
 
+# 1-20的平方注入列表
+# num_list = []
+# for i in range(1, 21):
+#     num_list.append(i ** 2)
+# print("平方列表", num_list)

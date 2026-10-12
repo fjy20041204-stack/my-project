@@ -1,5 +1,5 @@
 # break：只能出现在循环中，表示结束，跳出循环（break跳出循环时，while后面的else中的代码不再执行）
-#continue：只能出现在循环中，中断本次循环，直接进入下一次循环
+# continue：只能出现在循环中，中断本次循环，直接进入下一次循环
 
 # while True:
 #     #接受输入的用户名密码
@@ -22,7 +22,6 @@
 #     else:
 #         print("用户名或密码错误，请重新输入")
 #
-
 
 
 # for n in range(5):
@@ -48,11 +47,11 @@
 #         print("用户名或密码错误，请重新输入")
 
 
-
-#猜数字游戏
+# 猜数字游戏
 
 import random
-random_num = random.randint(1, 100)#生成随机数
+
+random_num = random.randint(1, 100)  # 生成随机数
 
 while True:
     # 接收输入的数字
@@ -65,5 +64,4 @@ while True:
     else:
         print("好棒猜对啦，6666")
         break
-print("随机数为",random_num)
-
+print("随机数为", random_num)
